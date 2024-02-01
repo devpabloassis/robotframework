@@ -18,20 +18,6 @@ Test Teardown       After Scenario
 Default Tags      Fluxo_Positivo    Aluno   Validacao
 
 *** Test Cases ***
-# Validar exibição e transição automática de destaques premium na home
-#     [Tags]      Home    Destaque Premium
-#     Dado que sou um usuário anônimo
-#     E que estou na home
-#     Então o destaque premium deve ser exibido
-#     E ocorrer a transição entre todos os itens no trilho de destaques premium
-
-# Buscar aluno pelo filtro de Cidade
-#     [Tags]      Home    Destaque Premium
-#     Dado que sou um usuário anônimo
-#     E que estou na home
-#     Então o destaque premium deve ser exibido
-#     E ocorrer a transição entre todos os itens no trilho de destaques premium
-
 Validar o total de cidades disponiveis
     Dado que realizei o acesso ao sistema de alunos
     Quando seleciono a lista de cidades dos alunos
